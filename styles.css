@@ -41,3 +41,32 @@ header {
 #item2 {
   text-align: right;
 }
+
+/*Advanced selectors*/
+
+.exercises ol {
+  padding: 30px;
+  background-color: grey;
+}
+
+.exercises ol > li:nth-child(odd) {
+  background-color: green;
+}
+
+.exercises ul {
+  padding: 0px;
+  background-color: white;
+}
+
+[title~="Bitmaker"]:hover {
+  text-decoration: none;
+  color: pink;
+}
+
+#advanced-selectors ul li:hover {
+  background-color: yellow;
+}
+
+.exercises ul li:active {
+  background-color: red;
+}
