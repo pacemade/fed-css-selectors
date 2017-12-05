@@ -12,3 +12,22 @@ h1, h2 {
 header {
   border-bottom: 20px dotted tomato;
 }
+
+/*Class selectors*/
+
+.class-list {
+  list-style-type: square;
+}
+
+.item {
+  border: 2px dotted green;
+}
+
+.even {
+  background-color: grey;
+}
+
+.odd {
+  background-color: black;
+  color: white;
+}
