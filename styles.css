@@ -31,3 +31,13 @@ header {
   background-color: black;
   color: white;
 }
+
+/*ID Selectors*/
+
+#item1 {
+  font-size: 30px;
+}
+
+#item2 {
+  text-align: right;
+}
